@@ -1,7 +1,7 @@
 require("brew.core")
 require("brew.lazy")
 
-vim.cmd.colorscheme("wildberries")
+vim.cmd.colorscheme("bearded-surprising-blueberry")
 
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = { "<filetype>" },

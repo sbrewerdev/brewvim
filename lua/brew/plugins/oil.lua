@@ -38,6 +38,7 @@ return {
 	---@module 'oil'
 	---@type oil.SetupOpts
 	opts = {
+		skip_confirm_for_simple_edits = true,
 		keymaps = {
 			["q"] = "actions.close",
 		},

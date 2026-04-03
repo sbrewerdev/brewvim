@@ -1,6 +1,5 @@
 local o = vim.opt
 
--- o.guicursor = ""
 o.number = true
 o.relativenumber = true
 o.showmode = false
