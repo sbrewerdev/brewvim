@@ -12,6 +12,9 @@ map("i", "jk", "<ESC>l")
 map("v", "J", ":m '>+1<CR>gv=gv", { desc = "Moves lines down in visual selection" })
 map("v", "K", ":m '<-2<CR>gv=gv", { desc = "Moves lines up in visual selection" })
 
+-- Paste over visual selection without replacing clipboard/yank register
+map("x", "p", [["_dP]], { desc = "Paste without yanking replaced text" })
+
 -- Normal Mode Keybinds
 map("n", "<C-d>", "<C-d>zz")
 map("n", "<C-u>", "<C-u>zz")
